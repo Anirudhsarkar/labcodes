@@ -17,7 +17,7 @@ int main (){
     a3 = 2*(a1+a2);
     b3 = 2*(b1+b2);
     c3 = 2*(c1+c2);
-    max = (a3>b3)? ((a3>c3) ? a3 : c3) : ((b3>c3)? b2:c3);
+    max = (a3>b3)? ((a3>c3) ? a3 : c3) : ((b3>c3)? b3:c3);
     rec = (max == a3) ? 1: (max == b3 ? 2:3);
     printf("Reactangle %d has the highest perimeter %d\n" , rec , max );
     return 0;
